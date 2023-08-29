@@ -1,0 +1,169 @@
+/*--General--*/
+body {
+  text-align: center;
+}
+
+/*--Nav Bar--*/
+
+.content {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1.5px solid #4E994F;
+  position: fixed;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: 'Playfair Display', serif;
+  float: left;
+  padding-left: 15px;
+  font-size: 35px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*--Banner--*/
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.banner::before {
+  content: "";
+  background-image: url("https://img.freepik.com/free-photo/natural-leaves-acacia_169016-10686.jpg?w=2000&t=st=1693006447~exp=1693007047~hmac=12ab819736ef746bec88ef5ae4e5ff8b79b2c2b2665a51fb65294e2912c37784");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+h1 {
+  position: relative;
+  color: #FCFBDE;
+  font-size: 60px;  
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+/*--Boxes--*/
+
+.parent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.description {
+  width: 50%;
+  height: 100%;
+}
+
+.gallery {
+  flex: 1;
+  width: 50%;
+  height: 50%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+/*--Description design--*/
+
+.description h2 {
+  position: relative;
+  color: #000000;
+  font-size: 45px;  
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 5px #403e3e;
+}
+  
+.description p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+}
+
+/*--The KOZE Team--*/
+
+.team-title h2 {
+  position: relative;
+  color: #000000;
+  font-size: 45px;  
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 5px #403e3e;
+  margin-top: 20px;
+} 
+
+.team {
+  display: flex;
+  justify-content: space-around;
+}
+  
+.team-member {
+  width: 30%;
+  height: 40%;
+  border: 1px solid #4E994F ;
+  margin-bottom: 10px;
+}
+
+.team-member img {
+  width: 100%;
+}
+  
+.team-member h4 {
+  font-size: 25px;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 10px;
+}
+
+.team-member h5 {
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-top: 0px;
+}
+  
+/*-- Contact --*/
+
+.contact {
+  background-color: #B9E1C4;
+  padding: 10px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    color: black;
+    text-shadow: 0px 0px 0px;
+  }
+
+.contact h4, h5 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+}
+
+/*-- Footer -- */
+
+footer {
+  font-size: 10px;
+}
+  
+  
